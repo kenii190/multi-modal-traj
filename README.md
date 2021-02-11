@@ -6,7 +6,7 @@ The source code for the paper "Multi-modal Trajectory Generation Using Imitation
 
 <br>
 
-## Environments:
+## Environments
 
 - 2D circle trajectories: **"circle"** directory
 - 2D traffic trajectories: **"traffic"** directory
@@ -14,7 +14,7 @@ The source code for the paper "Multi-modal Trajectory Generation Using Imitation
 
 <br>
 
-## Models:
+## Models
 
 - Behavior Cloning (BC): **"bc"** directory
 - Conditional VAE Behavior Cloning (cVAE-BC): **"vae_bc"** directory
@@ -24,7 +24,7 @@ The source code for the paper "Multi-modal Trajectory Generation Using Imitation
 
 <br>
 
-## Basic Requirement:
+## Basic Requirement
 
 For training, testing, and visualization in 2D synthetic environments, please install the following.
 
@@ -44,7 +44,7 @@ pip install matplotlib==3.1.0
 pip install tqdm
 ```
 
-## Advanced Requirement:
+## Advanced Requirement
 
 For visualization in the motion synthesis environment, please first build the gx rendering library.
 
